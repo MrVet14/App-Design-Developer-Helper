@@ -7,18 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51A073822905975C00F10F8B /* HapticItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073812905975C00F10F8B /* HapticItem.swift */; };
+		51A073842905976700F10F8B /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073832905976700F10F8B /* ColorItem.swift */; };
+		51A073862905978600F10F8B /* FontItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073852905978600F10F8B /* FontItem.swift */; };
 		51B9C5372905686B00A2D617 /* App_Design_Developer_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C5362905686B00A2D617 /* App_Design_Developer_HelperApp.swift */; };
 		51B9C5392905686B00A2D617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C5382905686B00A2D617 /* ContentView.swift */; };
 		51B9C53B2905686C00A2D617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B9C53A2905686C00A2D617 /* Assets.xcassets */; };
 		51B9C53E2905686C00A2D617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B9C53D2905686C00A2D617 /* Preview Assets.xcassets */; };
+		51B9C54A2905696A00A2D617 /* ColorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C5492905696A00A2D617 /* ColorsView.swift */; };
+		51B9C54C2905697B00A2D617 /* FontsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C54B2905697B00A2D617 /* FontsView.swift */; };
+		51B9C54E2905699000A2D617 /* HapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C54D2905699000A2D617 /* HapticsView.swift */; };
+		51B9C550290569E200A2D617 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C54F290569E200A2D617 /* SettingsView.swift */; };
+		51B9C55229056A0200A2D617 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55129056A0200A2D617 /* Color.swift */; };
+		51B9C55629056ABC00A2D617 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55529056ABC00A2D617 /* Haptic.swift */; };
+		51B9C55829056AC500A2D617 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55729056AC500A2D617 /* Font.swift */; };
+		51B9C55A29056B1900A2D617 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55929056B1900A2D617 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		51A073812905975C00F10F8B /* HapticItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticItem.swift; sourceTree = "<group>"; };
+		51A073832905976700F10F8B /* ColorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
+		51A073852905978600F10F8B /* FontItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontItem.swift; sourceTree = "<group>"; };
 		51B9C5332905686B00A2D617 /* App Design Developer Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Design Developer Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B9C5362905686B00A2D617 /* App_Design_Developer_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Design_Developer_HelperApp.swift; sourceTree = "<group>"; };
 		51B9C5382905686B00A2D617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		51B9C53A2905686C00A2D617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51B9C53D2905686C00A2D617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		51B9C5492905696A00A2D617 /* ColorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsView.swift; sourceTree = "<group>"; };
+		51B9C54B2905697B00A2D617 /* FontsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsView.swift; sourceTree = "<group>"; };
+		51B9C54D2905699000A2D617 /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
+		51B9C54F290569E200A2D617 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		51B9C55129056A0200A2D617 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		51B9C55529056ABC00A2D617 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
+		51B9C55729056AC500A2D617 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		51B9C55929056B1900A2D617 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,10 @@
 		51B9C5352905686B00A2D617 /* App Design Developer Helper */ = {
 			isa = PBXGroup;
 			children = (
-				51B9C5362905686B00A2D617 /* App_Design_Developer_HelperApp.swift */,
 				51B9C5382905686B00A2D617 /* ContentView.swift */,
+				51B9C5442905690D00A2D617 /* View */,
+				51B9C5452905691800A2D617 /* Model */,
+				51B9C5362905686B00A2D617 /* App_Design_Developer_HelperApp.swift */,
 				51B9C53A2905686C00A2D617 /* Assets.xcassets */,
 				51B9C53C2905686C00A2D617 /* Preview Content */,
 			);
@@ -65,6 +89,39 @@
 				51B9C53D2905686C00A2D617 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51B9C5442905690D00A2D617 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51B9C5482905694600A2D617 /* Components */,
+				51B9C5492905696A00A2D617 /* ColorsView.swift */,
+				51B9C54B2905697B00A2D617 /* FontsView.swift */,
+				51B9C54D2905699000A2D617 /* HapticsView.swift */,
+				51B9C55929056B1900A2D617 /* DetailsView.swift */,
+				51B9C54F290569E200A2D617 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51B9C5452905691800A2D617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51B9C55129056A0200A2D617 /* Color.swift */,
+				51B9C55729056AC500A2D617 /* Font.swift */,
+				51B9C55529056ABC00A2D617 /* Haptic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51B9C5482905694600A2D617 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				51A073812905975C00F10F8B /* HapticItem.swift */,
+				51A073832905976700F10F8B /* ColorItem.swift */,
+				51A073852905978600F10F8B /* FontItem.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +194,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51A073842905976700F10F8B /* ColorItem.swift in Sources */,
+				51B9C55629056ABC00A2D617 /* Haptic.swift in Sources */,
+				51B9C55A29056B1900A2D617 /* DetailsView.swift in Sources */,
+				51B9C54A2905696A00A2D617 /* ColorsView.swift in Sources */,
 				51B9C5392905686B00A2D617 /* ContentView.swift in Sources */,
+				51B9C55229056A0200A2D617 /* Color.swift in Sources */,
 				51B9C5372905686B00A2D617 /* App_Design_Developer_HelperApp.swift in Sources */,
+				51B9C55829056AC500A2D617 /* Font.swift in Sources */,
+				51B9C550290569E200A2D617 /* SettingsView.swift in Sources */,
+				51B9C54C2905697B00A2D617 /* FontsView.swift in Sources */,
+				51A073862905978600F10F8B /* FontItem.swift in Sources */,
+				51A073822905975C00F10F8B /* HapticItem.swift in Sources */,
+				51B9C54E2905699000A2D617 /* HapticsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +341,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +370,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
