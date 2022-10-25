@@ -9,7 +9,15 @@ import SwiftUI
 
 struct HapticsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack(spacing: 15) {
+                ForEach(theHaptics, id: \.self) { haptic in
+                    HapticItem(hapticItem: haptic)
+                }
+            }
+        }
+        .padding(.top, 20)
+        .navigationTitle("Haptics")
     }
 }
 

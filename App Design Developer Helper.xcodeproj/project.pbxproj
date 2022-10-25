@@ -10,6 +10,10 @@
 		51A073822905975C00F10F8B /* HapticItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073812905975C00F10F8B /* HapticItem.swift */; };
 		51A073842905976700F10F8B /* ColorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073832905976700F10F8B /* ColorItem.swift */; };
 		51A073862905978600F10F8B /* FontItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073852905978600F10F8B /* FontItem.swift */; };
+		51A073882905BE3600F10F8B /* HapticDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073872905BE3600F10F8B /* HapticDetailView.swift */; };
+		51A0738A2905BE4D00F10F8B /* ColorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A073892905BE4D00F10F8B /* ColorDetailView.swift */; };
+		51A0738C2905BE5E00F10F8B /* FontDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0738B2905BE5E00F10F8B /* FontDetailView.swift */; };
+		51A0738E2906095400F10F8B /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0738D2906095400F10F8B /* ActivityViewController.swift */; };
 		51B9C5372905686B00A2D617 /* App_Design_Developer_HelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C5362905686B00A2D617 /* App_Design_Developer_HelperApp.swift */; };
 		51B9C5392905686B00A2D617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C5382905686B00A2D617 /* ContentView.swift */; };
 		51B9C53B2905686C00A2D617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51B9C53A2905686C00A2D617 /* Assets.xcassets */; };
@@ -21,13 +25,17 @@
 		51B9C55229056A0200A2D617 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55129056A0200A2D617 /* Color.swift */; };
 		51B9C55629056ABC00A2D617 /* Haptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55529056ABC00A2D617 /* Haptic.swift */; };
 		51B9C55829056AC500A2D617 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55729056AC500A2D617 /* Font.swift */; };
-		51B9C55A29056B1900A2D617 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B9C55929056B1900A2D617 /* DetailsView.swift */; };
+		51C61596290813B5007C1E0D /* PressEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C61595290813B5007C1E0D /* PressEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51A073812905975C00F10F8B /* HapticItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticItem.swift; sourceTree = "<group>"; };
 		51A073832905976700F10F8B /* ColorItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItem.swift; sourceTree = "<group>"; };
 		51A073852905978600F10F8B /* FontItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontItem.swift; sourceTree = "<group>"; };
+		51A073872905BE3600F10F8B /* HapticDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticDetailView.swift; sourceTree = "<group>"; };
+		51A073892905BE4D00F10F8B /* ColorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailView.swift; sourceTree = "<group>"; };
+		51A0738B2905BE5E00F10F8B /* FontDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetailView.swift; sourceTree = "<group>"; };
+		51A0738D2906095400F10F8B /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		51B9C5332905686B00A2D617 /* App Design Developer Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Design Developer Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B9C5362905686B00A2D617 /* App_Design_Developer_HelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_Design_Developer_HelperApp.swift; sourceTree = "<group>"; };
 		51B9C5382905686B00A2D617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,7 +48,7 @@
 		51B9C55129056A0200A2D617 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		51B9C55529056ABC00A2D617 /* Haptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptic.swift; sourceTree = "<group>"; };
 		51B9C55729056AC500A2D617 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		51B9C55929056B1900A2D617 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		51C61595290813B5007C1E0D /* PressEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,9 @@
 				51B9C5492905696A00A2D617 /* ColorsView.swift */,
 				51B9C54B2905697B00A2D617 /* FontsView.swift */,
 				51B9C54D2905699000A2D617 /* HapticsView.swift */,
-				51B9C55929056B1900A2D617 /* DetailsView.swift */,
+				51A073892905BE4D00F10F8B /* ColorDetailView.swift */,
+				51A0738B2905BE5E00F10F8B /* FontDetailView.swift */,
+				51A073872905BE3600F10F8B /* HapticDetailView.swift */,
 				51B9C54F290569E200A2D617 /* SettingsView.swift */,
 			);
 			path = View;
@@ -120,6 +130,8 @@
 				51A073812905975C00F10F8B /* HapticItem.swift */,
 				51A073832905976700F10F8B /* ColorItem.swift */,
 				51A073852905978600F10F8B /* FontItem.swift */,
+				51A0738D2906095400F10F8B /* ActivityViewController.swift */,
+				51C61595290813B5007C1E0D /* PressEvent.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -196,13 +208,17 @@
 			files = (
 				51A073842905976700F10F8B /* ColorItem.swift in Sources */,
 				51B9C55629056ABC00A2D617 /* Haptic.swift in Sources */,
-				51B9C55A29056B1900A2D617 /* DetailsView.swift in Sources */,
 				51B9C54A2905696A00A2D617 /* ColorsView.swift in Sources */,
+				51A0738E2906095400F10F8B /* ActivityViewController.swift in Sources */,
+				51A073882905BE3600F10F8B /* HapticDetailView.swift in Sources */,
 				51B9C5392905686B00A2D617 /* ContentView.swift in Sources */,
 				51B9C55229056A0200A2D617 /* Color.swift in Sources */,
+				51A0738C2905BE5E00F10F8B /* FontDetailView.swift in Sources */,
 				51B9C5372905686B00A2D617 /* App_Design_Developer_HelperApp.swift in Sources */,
 				51B9C55829056AC500A2D617 /* Font.swift in Sources */,
+				51C61596290813B5007C1E0D /* PressEvent.swift in Sources */,
 				51B9C550290569E200A2D617 /* SettingsView.swift in Sources */,
+				51A0738A2905BE4D00F10F8B /* ColorDetailView.swift in Sources */,
 				51B9C54C2905697B00A2D617 /* FontsView.swift in Sources */,
 				51A073862905978600F10F8B /* FontItem.swift in Sources */,
 				51A073822905975C00F10F8B /* HapticItem.swift in Sources */,
@@ -350,9 +366,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitalivyucheiski.App-Design-Developer-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,9 +398,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vitalivyucheiski.App-Design-Developer-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
